@@ -16,10 +16,6 @@
 ## Installation
 
 ```bash
-npm login
-```
-
-```bash
 npm install bm-signature
 ```
 

@@ -1,7 +1,6 @@
 {
   "name": "bm-signature",
   "version": "1.0.0",
-  "private": "true",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -26,7 +25,6 @@
     "typescript": "^4.9.4"
   },
   "files": [
-    "src",
     "dist"
   ]
 }
