@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BM Signature</title>
+  </head>
+  <style lang="css">
+    #signature {
+      font-size: 10pt;
+      font-family: "Courier New", Monospace;
+      white-space: pre;
+    }
+  </style>
+  <script type="module" lang="js">
+    import {
+      printToDOM,
+      printToConsole,
+      printToDOMasComment,
+    } from "./dist/index.js";
+    // print to dom as comment
+    printToDOMasComment(document.getElementById("comment"));
+    // print as text
+    printToDOM(document.getElementById("signature"));
+    // print to console
+    printToConsole();
+  </script>
+  <body>
+    <h1>BM Signature</h1>
+    <div id="comment"></div>
+    <div id="signature"></div>
+  </body>
+</html>

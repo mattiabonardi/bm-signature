@@ -1,0 +1,32 @@
+{
+  "name": "bm-signature",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "start": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattiabonardi/bm-signature.git"
+  },
+  "author": "Mattia Bonardi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattiabonardi/bm-signature/issues"
+  },
+  "homepage": "https://github.com/mattiabonardi/bm-signature#readme",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "typescript": "^4.9.4"
+  },
+  "files": [
+    "src",
+    "dist"
+  ]
+}
